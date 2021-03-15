@@ -1,0 +1,129 @@
+
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #cc7351;
+    color: white;
+}
+
+#features {
+    padding: 5% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-icon {
+    margin-bottom: 1rem;
+    color:#e08f62;
+}
+
+.feature-icon:hover {
+    color: #cc7351;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+}
+
+.nav-link {
+    font-size:1.25rem;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 100%;
+}
+
+#testimonials {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #9dab86;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#portfolio {
+    padding: 5% 15%;
+}
+
+.portfolio-title {
+    text-align: center;
+}
+
+#pricing {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #9dab86;
+    color: #fff;
+}
+
+.pricing-plan {
+    padding-top: 5%;
+}
+
+.price-description {
+    color: #fff;
+}
+
+#cta {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.contact-button {
+    margin-top: 30px;
+}
+
+#footer {
+    text-align: center;
+}
