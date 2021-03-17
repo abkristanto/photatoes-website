@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: "Montserrat";
@@ -113,6 +116,10 @@ p {
 
 .price-description {
     color: #fff;
+}
+
+.pricing-button {
+    margin: 0 0 5% 0;
 }
 
 #cta {

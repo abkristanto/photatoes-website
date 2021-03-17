@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Landing Page</title>
+  <title>Photatoes Landing Page</title>
   <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
@@ -21,6 +21,8 @@
     crossorigin="anonymous"></script>
   <!-- FontAwesome -->
   <script src="https://kit.fontawesome.com/61a456941d.js" crossorigin="anonymous"></script>
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -36,13 +38,13 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="">About Us</a>
             </li>
           </ul>
         </div>
@@ -51,8 +53,8 @@
       <div class="row">
         <div class="col-lg-6">
           <h1>Explore and reach out to new ventures.</h1>
-          <button type="button" class="btn btn-dark btn-lg download-button">Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg download-button">Download</button>
+          <a href="https://www.instagram.com/photato.e/"><button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-instagram"></i> Instagram</button></a>
+          <button type="button" class="btn btn-outline-light btn-lg download-button" onClick="document.getElementById('portfolio').scrollIntoView();">Photo Gallery</button>
         </div>
         <div class="col-lg-6">
           <img class="title-image" src="images/camera.jpg" alt="camera-photo">
@@ -135,21 +137,21 @@
         <h2>Free</h2>
         <p class="price-description">5 photos, maximum 20 minute photoshoot</p>
         <p class="price-description">Free edited Prints</p>
-        <button type="button" class="btn btn-outline-light btn-lg">Sign up</button>
+        <button type="button" class="btn btn-outline-light btn-lg pricing-button">Sign up</button>
       </div>
       <div class="col-lg-4 col-md-12 col-sm-12">
         <h3>Full day</h3>
         <h2>Rp1.000.000,00</h2>
         <p class="price-description">Unlimited amount of photos</p>
         <p class="price-description">Full supply of prints in curated color palette, full access to digital files, RAW and JPEG.</p>
-        <button type="button" class="btn btn-outline-light btn-lg">Sign up</button>
+        <button type="button" class="btn btn-outline-light btn-lg pricing-button">Sign up</button>
       </div>
       <div class="col-lg-4 col-md-12 col-sm-12">
         <h3>Per hour</h3>
         <h2>Rp200.000,00</h2>
         <p class="price-description">Maximum 50 pictures per hour</p>
         <p class="price-description">Full supply of prints in curated color paltette. full access to digital files.</p>
-        <button type="button" class="btn btn-outline-light btn-lg">Sign up</button>
+        <button type="button" class="btn btn-outline-light btn-lg pricing-button">Sign up</button>
       </div>
     </div>
 
@@ -158,13 +160,14 @@
 
   <section id="cta">
     <h3>Discover the moments you want with your loved ones today.</h3>
-    <button type="button" class="btn btn-dark btn-lg contact-button">Contact Us</button>
+    <a href="mailto:abkristanto@gmail.com"><button type="button" class="btn btn-dark btn-lg contact-button">Contact Us</button></a>
   </section>
 
   <!-- Footer -->
   <footer id="footer">
     <p>©Copyright 2021 Photatoes</p>
   </footer>
+  <script src="index.js"></script>
 
 
 
